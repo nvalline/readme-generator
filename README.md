@@ -1,13 +1,13 @@
-# Project Name
 
-<img src="#" alt="" max-height="550px">
+# Test Readme 2
 
-> Short Project Blurb
+<img src="./assets/img/placeholder.png" alt="" max-height="550px">
 
-#### [View The Site](https://)
+> This is the second test blurb.
+
+#### [View The Site](https://www.google.com)
 
 <!-- Badge(s) Here -->
-https://img.shields.io/github/languages/top/nvalline/readme-generator
 
 ---
 
@@ -28,7 +28,7 @@ Your section headers will be used to reference location of destination.
 
 ## Description
 
-Enter project description here
+Your application should prompt the user for information such as their name, location, bio, LinkedIn URL, and GitHub URL. Feel free to add any additional prompts you think of. '\n' This is the second paragraph.
 
 [Back To The Top](#project-name)
 
@@ -36,7 +36,7 @@ Enter project description here
 
 #### Technologies
 
-- Top Tech Badge
+- ![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator)
 - Technology List
 
 [Back To The Top](#project-name)
@@ -45,11 +45,15 @@ Enter project description here
 
 ## How To Use
 
+Simply follow the prompts
+
 [Back To The Top](#project-name)
 
 ---
 
 #### Installation
+
+Simply click the link below
 
 [Back To The Top](#project-name)
 
@@ -60,6 +64,8 @@ Enter project description here
 - Nate Valline
 
 [Back To The Top](#project-name)
+
+---
 
 ## Tests
 
@@ -80,3 +86,4 @@ Copyright (c) [2020][nate valline]
 [Back To The Top](#project-name)
 
 ---
+    

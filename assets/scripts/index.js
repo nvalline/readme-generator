@@ -1,6 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const util = require('util');
+const generateMarkdown = require('../utils/generateMarkdown')
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -14,7 +15,7 @@ function promptUser() {
         },
         {
             type: 'input',
-            message: 'Enter project image file name.',
+            message: 'Enter project image file name with relative path.',
             name: 'projectImage'
         },
         {
@@ -50,7 +51,17 @@ function promptUser() {
         {
             type: 'input',
             message: 'List any contributors.',
-            name: 'projectRefs'
+            name: 'projectContributors'
+        },
+        {
+            type: 'input',
+            message: 'What is your Github username?',
+            name: 'githubUsername'
+        },
+        {
+            type: 'input',
+            message: 'What is the name of your Github repo?',
+            name: 'githubRepo'
         }
     ])
 }
@@ -59,8 +70,10 @@ async function init() {
     console.log('HI');
     try {
         const answers = await promptUser();
-
         console.log(answers)
+        const markdown = generateMarkdown(answers);
+
+        await writeFileAsync('../../README.md', markdown);
 
     } catch (err) {
         console.log(`There was an error: ${err}`)
