@@ -18,9 +18,10 @@ Your section headers will be used to reference location of destination.
 - [Technologies](#technologies)
 - [How To Use](#how-to-use)
 - [Installation](#installation)
-- [References](#references)
-- [License](#license)
 - [Contributors](#contributors)
+- [Test(s)](#tests)
+- [Questions](#questions)
+- [License](#license)
 
 ---
 
@@ -53,20 +54,6 @@ Enter project description here
 
 ---
 
-## References
-
-[Back To The Top](#project-name)
-
----
-
-## License
-
-Copyright (c) [2020][nate valline]
-
-[Back To The Top](#project-name)
-
----
-
 ## Contributors
 
 - Nate Valline
@@ -80,6 +67,14 @@ Copyright (c) [2020][nate valline]
 ---
 
 ## Questions
+
+[Back To The Top](#project-name)
+
+---
+
+## License
+
+Copyright (c) [2020][nate valline]
 
 [Back To The Top](#project-name)
 
