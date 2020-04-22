@@ -7,6 +7,7 @@
 #### [View The Site](https://)
 
 <!-- Badge(s) Here -->
+https://img.shields.io/github/languages/top/nvalline/readme-generator
 
 ---
 
