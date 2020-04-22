@@ -1,8 +1,9 @@
+// Generate Markdown
 function generateMarkdown(answers) {
     return `
 # ${answers.projectName}
 
-<img src="${answers.projectImage}" alt="" max-height="550px">
+<img src="./assets/img/${answers.projectImage}" alt="" max-height="550px">
 
 > ${answers.projectBlurb}
 
@@ -35,10 +36,10 @@ ${answers.projectDescription}
 
 ---
 
-#### Technologies
+## Technologies
 
-- ![GitHub Top Language](https://img.shields.io/github/languages/top/${answers.githubUsername}/${answers.githubRepo})
-- Technology List
+![GitHub Top Language](https://img.shields.io/github/languages/top/${answers.githubUsername}/${answers.githubRepo})
+- ${answers.projectTech}
 
 [Back To The Top](#project-name)
 
@@ -52,9 +53,11 @@ ${answers.projectHowTo}
 
 ---
 
-#### Installation
+## Installation
 
 ${answers.projectInstall}
+
+#### [View The Site](${answers.siteURL})
 
 [Back To The Top](#project-name)
 

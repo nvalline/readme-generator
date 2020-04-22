@@ -1,11 +1,11 @@
 
-# Test Readme 2
+# README Generator
 
 <img src="./assets/img/placeholder.png" alt="" max-height="550px">
 
-> This is the second test blurb.
+> This is a short project blurb
 
-#### [View The Site](https://www.google.com)
+#### [View The Site](https://google.com)
 
 <!-- Badge(s) Here -->
 
@@ -28,16 +28,16 @@ Your section headers will be used to reference location of destination.
 
 ## Description
 
-Your application should prompt the user for information such as their name, location, bio, LinkedIn URL, and GitHub URL. Feel free to add any additional prompts you think of. '\n' This is the second paragraph.
+This is the description.
 
 [Back To The Top](#project-name)
 
 ---
 
-#### Technologies
+## Technologies
 
-- ![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator)
-- Technology List
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator)
+- Javascript, HTML & CSS
 
 [Back To The Top](#project-name)
 
@@ -45,15 +45,17 @@ Your application should prompt the user for information such as their name, loca
 
 ## How To Use
 
-Simply follow the prompts
+Click the link
 
 [Back To The Top](#project-name)
 
 ---
 
-#### Installation
+## Installation
 
-Simply click the link below
+CLick the link
+
+#### [View The Site](https://google.com)
 
 [Back To The Top](#project-name)
 
