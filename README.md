@@ -1,11 +1,11 @@
 
-# README Generator
+# undefined
 
-<img src="./assets/img/placeholder.png" alt="" max-height="550px">
+<img src="./assets/img/undefined" alt="Project Screenshot" max-height="550px">
 
-> This is a short project blurb
+> undefined
 
-#### [View The Site](https://google.com)
+#### [View The Site](undefined)
 
 <!-- Badge(s) Here -->
 
@@ -28,7 +28,7 @@ Your section headers will be used to reference location of destination.
 
 ## Description
 
-This is the description.
+undefined
 
 [Back To The Top](#project-name)
 
@@ -36,8 +36,9 @@ This is the description.
 
 ## Technologies
 
-![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator)
-- Javascript, HTML & CSS
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/undefined)
+
+- undefined
 
 [Back To The Top](#project-name)
 
@@ -45,7 +46,7 @@ This is the description.
 
 ## How To Use
 
-Click the link
+undefined
 
 [Back To The Top](#project-name)
 
@@ -53,9 +54,9 @@ Click the link
 
 ## Installation
 
-CLick the link
+undefined
 
-#### [View The Site](https://google.com)
+#### [View The Site](undefined)
 
 [Back To The Top](#project-name)
 
@@ -63,7 +64,7 @@ CLick the link
 
 ## Contributors
 
-- Nate Valline
+- undefined
 
 [Back To The Top](#project-name)
 
@@ -71,11 +72,19 @@ CLick the link
 
 ## Tests
 
+undefined
+
 [Back To The Top](#project-name)
 
 ---
 
 ## Questions
+
+Please contact the following.
+
+<img src="./assets/img/https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="80px">
+
+- undefined
 
 [Back To The Top](#project-name)
 
