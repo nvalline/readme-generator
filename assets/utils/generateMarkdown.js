@@ -1,5 +1,5 @@
 // Generate Markdown
-function generateMarkdown(answers) {
+function generateMarkdown(answers, userImage) {
     return `
 # ${answers.projectName}
 
@@ -39,6 +39,7 @@ ${answers.projectDescription}
 ## Technologies
 
 ![GitHub Top Language](https://img.shields.io/github/languages/top/${answers.githubUsername}/${answers.githubRepo})
+
 - ${answers.projectTech}
 
 [Back To The Top](#project-name)
@@ -83,7 +84,7 @@ ${answers.projectTest}
 
 Please contact the following.
 
-Github Profile Pic
+<img src="${userImage}" alt="User Image" width="60px">
 
 - ${answers.userEmail}
 
