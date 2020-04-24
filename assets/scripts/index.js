@@ -25,6 +25,10 @@ async function init() {
         const answers = await promptUser();
         const userImage = await getUserProfileImage(answers)
 
+        if (!answers.siteURL) {
+            answers.siteURL = '#';
+        }
+
         if (!answers.projectTest) {
             answers.projectTest = 'There are no tests.';
         }
