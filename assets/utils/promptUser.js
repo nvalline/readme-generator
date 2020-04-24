@@ -37,11 +37,11 @@ function promptUser() {
             type: 'confirm',
             message: 'Is the project live?',
             name: 'projectLive'
-        }
+        },
         {
             type: 'input',
             message: 'Enter the live site URL.',
-            name: 'siteURL'
+            name: 'siteURL',
             when: function (answers) {
                 return answers.projectLive;
             }
