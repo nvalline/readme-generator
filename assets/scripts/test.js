@@ -11,27 +11,30 @@ function promptUser() {
             type: 'input',
             message: 'List all references.',
             name: 'refs',
-            when: (answers) => answers
+            when: function (answers) {
+                return answers.confirmRefs;
+            }
         }
     ])
+    // console.log(refs)
 }
 
 // ask references last and then write new await function to loop references and ask for URLs
 
 function getURLs(answers) {
     const answerArr = answers.refs.split(',');
-    console.log(`This is the 1st answerArr: ${answerArr[0]}`)
+    console.log(`This is the 1st answerArr: ${answerArr}`)
 
-    for (const answer of answerArr) {
-        console.log(answer)
-        await inquirer.prompt([
-            {
-                type: 'input',
-                message: `What is the URL for ${answer}`,
-                name: 'url'
-            }
-        ])
-    }
+    // for (const answer of answerArr) {
+    //     console.log(answer)
+    //     await inquirer.prompt([
+    //         {
+    //             type: 'input',
+    //             message: `What is the URL for ${answer}`,
+    //             name: 'url'
+    //         }
+    //     ])
+    // }
 
     return;
 }

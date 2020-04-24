@@ -5,6 +5,21 @@ function promptUser() {
     return inquirer.prompt([
         {
             type: 'input',
+            message: 'What is your Github username?',
+            name: 'githubUsername'
+        },
+        {
+            type: 'input',
+            message: 'What is your contact email?',
+            name: 'userEmail'
+        },
+        {
+            type: 'input',
+            message: 'What is the name of your Github repo?',
+            name: 'githubRepo'
+        },
+        {
+            type: 'input',
             message: 'Enter project name.',
             name: 'projectName'
         },
@@ -35,28 +50,31 @@ function promptUser() {
         },
         {
             type: 'input',
-            message: 'How do you use the project?',
-            name: 'projectHowTo'
-        },
-        {
-            type: 'input',
             message: 'How do you install the project?',
             name: 'projectInstall'
         },
         {
             type: 'input',
+            message: 'How do you use the project?',
+            name: 'projectHowTo'
+        },
+        {
+            type: 'confirm',
+            message: 'Are there any tests for the project?',
+            name: 'testConfirm'
+        },
+        {
+            type: 'input',
+            message: 'Enter your test.',
+            name: 'projectTest',
+            when: function (answers) {
+                return answers.testConfirm;
+            }
+        },
+        {
+            type: 'input',
             message: 'List any contributors.',
             name: 'projectContributors'
-        },
-        {
-            type: 'input',
-            message: 'What is your Github username?',
-            name: 'githubUsername'
-        },
-        {
-            type: 'input',
-            message: 'What is the name of your Github repo?',
-            name: 'githubRepo'
         }
     ])
 }

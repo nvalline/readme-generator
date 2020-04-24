@@ -6,7 +6,7 @@ const generateMarkdown = require('../utils/generateMarkdown')
 const writeFileAsync = util.promisify(fs.writeFile);
 
 async function init() {
-    console.log('HI');
+    console.log('Hi, please follow the prompts!');
     try {
         const answers = await promptUser();
         const markdown = generateMarkdown(answers);

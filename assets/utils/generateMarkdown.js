@@ -3,7 +3,7 @@ function generateMarkdown(answers) {
     return `
 # ${answers.projectName}
 
-<img src="./assets/img/${answers.projectImage}" alt="" max-height="550px">
+<img src="./assets/img/${answers.projectImage}" alt="Project Screenshot" max-height="550px">
 
 > ${answers.projectBlurb}
 
@@ -73,11 +73,19 @@ ${answers.projectInstall}
 
 ## Tests
 
+${answers.projectTest}
+
 [Back To The Top](#project-name)
 
 ---
 
 ## Questions
+
+Please contact the following.
+
+Github Profile Pic
+
+- ${answers.userEmail}
 
 [Back To The Top](#project-name)
 
