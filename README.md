@@ -64,7 +64,7 @@ undefined
 
 ## Contributors
 
-- undefined
+- Nate
 
 [Back To The Top](#project-name)
 
@@ -72,7 +72,7 @@ undefined
 
 ## Tests
 
-undefined
+This is a test.
 
 [Back To The Top](#project-name)
 
@@ -82,7 +82,7 @@ undefined
 
 Please contact the following.
 
-<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="80px">
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="60px">
 
 - undefined
 

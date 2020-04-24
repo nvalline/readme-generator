@@ -24,7 +24,11 @@ async function init() {
     try {
         const answers = await promptUser();
         const userImage = await getUserProfileImage(answers)
-        console.log('The user image is ' + userImage)
+
+        if (!answers.projectTest) {
+            answers.projectTest = 'There are no tests.';
+        }
+
         const markdown = generateMarkdown(answers, userImage);
 
         await writeFileAsync('../../README.md', markdown);
