@@ -82,7 +82,7 @@ undefined
 
 Please contact the following.
 
-<img src="./assets/img/https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="80px">
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="80px">
 
 - undefined
 
