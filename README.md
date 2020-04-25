@@ -7,8 +7,6 @@
 
 #### [View The Site](#) - The project is not live.
 
-<!-- Badge(s) Here -->
-
 ---
 
 ### Table of Contents
@@ -36,9 +34,9 @@ undefined
 
 ## Technologies
 
-![GitHub Top Language](https://img.shields.io/github/languages/top/undefined/undefined)
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/readme-generator)
 
-- undefined
+- javascript
 
 [Back To The Top](#project-name)
 
@@ -82,7 +80,7 @@ There are no tests.
 
 Please contact the following.
 
-<img src="https://avatars3.githubusercontent.com/u/11791361?v=4" alt="User Image" width="60px">
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="60px">
 
 - undefined
 
