@@ -24,16 +24,20 @@ async function init() {
     try {
         const answers = await promptUser();
         const userImage = await getUserProfileImage(answers)
+        let siteLive = 'See the project live.';
 
         if (!answers.siteURL) {
             answers.siteURL = '#';
+            siteLive = 'The project is not live.';
         }
+
+        console.log('This is site Live: ' + siteLive)
 
         if (!answers.projectTest) {
             answers.projectTest = 'There are no tests.';
         }
 
-        const markdown = generateMarkdown(answers, userImage);
+        const markdown = generateMarkdown(answers, userImage, siteLive);
 
         await writeFileAsync('../../README.md', markdown);
 

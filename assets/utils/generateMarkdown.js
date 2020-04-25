@@ -1,5 +1,5 @@
 // Generate Markdown
-function generateMarkdown(answers, userImage) {
+function generateMarkdown(answers, userImage, siteLive) {
     return `
 # ${answers.projectName}
 
@@ -7,7 +7,7 @@ function generateMarkdown(answers, userImage) {
 
 > ${answers.projectBlurb}
 
-#### [View The Site](${answers.siteURL})
+#### [View The Site](${answers.siteURL}) - ${siteLive}
 
 <!-- Badge(s) Here -->
 
@@ -58,7 +58,7 @@ ${answers.projectHowTo}
 
 ${answers.projectInstall}
 
-#### [View The Site](${answers.siteURL})
+#### [View The Site](${answers.siteURL}) - ${siteLive}
 
 [Back To The Top](#project-name)
 

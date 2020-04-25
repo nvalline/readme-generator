@@ -5,7 +5,7 @@
 
 > undefined
 
-#### [View The Site](undefined)
+#### [View The Site](#) - The project is not live.
 
 <!-- Badge(s) Here -->
 
@@ -36,7 +36,7 @@ undefined
 
 ## Technologies
 
-![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/undefined)
+![GitHub Top Language](https://img.shields.io/github/languages/top/undefined/undefined)
 
 - undefined
 
@@ -56,7 +56,7 @@ undefined
 
 undefined
 
-#### [View The Site](undefined)
+#### [View The Site](#) - The project is not live.
 
 [Back To The Top](#project-name)
 
@@ -64,7 +64,7 @@ undefined
 
 ## Contributors
 
-- Nate
+- undefined
 
 [Back To The Top](#project-name)
 
@@ -72,7 +72,7 @@ undefined
 
 ## Tests
 
-This is a test.
+There are no tests.
 
 [Back To The Top](#project-name)
 
@@ -82,7 +82,7 @@ This is a test.
 
 Please contact the following.
 
-<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="60px">
+<img src="https://avatars3.githubusercontent.com/u/11791361?v=4" alt="User Image" width="60px">
 
 - undefined
 
