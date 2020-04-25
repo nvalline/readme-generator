@@ -22,16 +22,15 @@ function getUserProfileImage(answers) {
 async function init() {
     console.log('Hi, please follow the prompts!');
     try {
-        const answers = await promptUser();
-        const userImage = await getUserProfileImage(answers)
         let siteLive = 'See the project live.';
+
+        const answers = await promptUser();
+        const userImage = await getUserProfileImage(answers);
 
         if (!answers.siteURL) {
             answers.siteURL = '#';
             siteLive = 'The project is not live.';
         }
-
-        console.log('This is site Live: ' + siteLive)
 
         if (!answers.projectTest) {
             answers.projectTest = 'There are no tests.';

@@ -9,8 +9,6 @@ function generateMarkdown(answers, userImage, siteLive) {
 
 #### [View The Site](${answers.siteURL}) - ${siteLive}
 
-<!-- Badge(s) Here -->
-
 ---
 
 ### Table of Contents
@@ -38,7 +36,7 @@ ${answers.projectDescription}
 
 ## Technologies
 
-![GitHub Top Language](https://img.shields.io/github/languages/top/${answers.githubUsername}/${answers.githubRepo})
+![GitHub Top Language](https://img.shields.io/github/languages/top/${answers.githubUsername}/${answers.githubRepo}) ![GitHub language count](https://img.shields.io/github/languages/count/${answers.githubUsername}/${answers.githubRepo})
 
 - ${answers.projectTech}
 
@@ -84,7 +82,7 @@ ${answers.projectTest}
 
 Please contact the following.
 
-<img src="${userImage}" alt="User Image" width="60px">
+<img src="${userImage}" alt="User Image" width="50px">
 
 - ${answers.userEmail}
 

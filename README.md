@@ -1,9 +1,9 @@
 
-# undefined
+# README Generator
 
-<img src="./assets/img/undefined" alt="Project Screenshot" max-height="550px">
+<img src="./assets/img/placeholder.png" alt="Project Screenshot" max-height="550px">
 
-> undefined
+> This project generates a README file for your project.
 
 #### [View The Site](#) - The project is not live.
 
@@ -26,7 +26,7 @@ Your section headers will be used to reference location of destination.
 
 ## Description
 
-undefined
+This application generates a README file for your project by prompting you to enter the required information.
 
 [Back To The Top](#project-name)
 
@@ -36,7 +36,7 @@ undefined
 
 ![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/readme-generator)
 
-- javascript
+- Javascript
 
 [Back To The Top](#project-name)
 
@@ -44,7 +44,7 @@ undefined
 
 ## How To Use
 
-undefined
+Simply follow the prompts
 
 [Back To The Top](#project-name)
 
@@ -52,7 +52,7 @@ undefined
 
 ## Installation
 
-undefined
+Instructions to follow.
 
 #### [View The Site](#) - The project is not live.
 
@@ -62,7 +62,7 @@ undefined
 
 ## Contributors
 
-- undefined
+- Nate Valline
 
 [Back To The Top](#project-name)
 
@@ -82,7 +82,7 @@ Please contact the following.
 
 <img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="60px">
 
-- undefined
+- contact@natevalline.com
 
 [Back To The Top](#project-name)
 
