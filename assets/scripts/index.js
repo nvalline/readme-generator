@@ -40,7 +40,7 @@ async function init() {
 
         const markdown = generateMarkdown(answers, userImage, siteLive, currentYear);
 
-        await writeFileAsync('../../README.md', markdown);
+        await writeFileAsync('./README.md', markdown);
 
         console.log('Success! A new README file was written.')
     } catch (err) {
