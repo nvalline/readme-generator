@@ -36,7 +36,9 @@ async function init() {
             answers.projectTest = 'There are no tests.';
         }
 
-        const markdown = generateMarkdown(answers, userImage, siteLive);
+        const currentYear = new Date().getFullYear();
+
+        const markdown = generateMarkdown(answers, userImage, siteLive, currentYear);
 
         await writeFileAsync('../../README.md', markdown);
 

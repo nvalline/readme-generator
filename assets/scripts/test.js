@@ -56,4 +56,7 @@ async function init() {
     }
 }
 
+
+const currentYear = new Date().getFullYear();
+console.log(currentYear)
 init();
