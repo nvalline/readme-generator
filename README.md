@@ -1,11 +1,11 @@
 
 # README Generator
 
-<img src="./assets/img/placeholder.png" alt="Project Screenshot" max-height="550px">
+<img src="./assets/img/placeholder.png" alt="Project Screenshot" max-height="500px">
 
-> This a short project blurb
+> This application will guide the user to generate a README markdown file for their project.
 
-#### [View The Site](https://www.google.com) - See the project live.
+#### [View The Site](#) - The project is not live.
 
 ---
 
@@ -36,7 +36,7 @@ The project description goes here
 
 ![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/readme-generator)
 
-- Javascript, node.js, HTML, CSS
+- Javascript, node.js
 
 [Back To The Top](#project-name)
 
@@ -44,9 +44,9 @@ The project description goes here
 
 ## Installation
 
-Simply run npm install
+Download the source files to the desired project directory. Open the terminal and navigate to the directory in the last step. Simply enter 'npm install', to install the necessary dependencies. 
 
-#### [View The Site](https://www.google.com) - See the project live.
+#### [View Video Walkthrough](https://nv-marketing-llc.wistia.com/medias/0hiqal6xuv)
 
 [Back To The Top](#project-name)
 
@@ -54,7 +54,11 @@ Simply run npm install
 
 ## How To Use
 
-Click the link & follow the prompts
+Once the dependencies are installed and the project is ready to have a README file generated, simply open the terminal and enter 'npm start'.  This will launch the application.  Follow the prompts that are presented in the terminal. Use the 'Enter/Return' key to submit the response to each prompt.
+
+#### [View Video Walkthrough](https://nv-marketing-llc.wistia.com/medias/0hiqal6xuv)
+
+#### [View The Site](#) - The project is not live.
 
 [Back To The Top](#project-name)
 
@@ -62,7 +66,7 @@ Click the link & follow the prompts
 
 ## Tests
 
-Tests go here
+There are no tests.
 
 [Back To The Top](#project-name)
 
@@ -70,7 +74,7 @@ Tests go here
 
 ## Contributors
 
-- Nate Valline, John Doe, Jane Tarzan
+- Nate Valline
 
 [Back To The Top](#project-name)
 
@@ -80,9 +84,7 @@ Tests go here
 
 Please contact the following for any questions.
 
-<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="50px">
-
-- contact@natevalline.com
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="50px"> - contact@natevalline.com
 
 [Back To The Top](#project-name)
 

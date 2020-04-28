@@ -48,8 +48,6 @@ ${answers.projectDescription}
 
 ${answers.projectInstall}
 
-#### [View The Site](${answers.siteURL}) - ${siteLive}
-
 [Back To The Top](#project-name)
 
 ---
@@ -57,6 +55,8 @@ ${answers.projectInstall}
 ## How To Use
 
 ${answers.projectHowTo}
+
+#### [View The Site](${answers.siteURL}) - ${siteLive}
 
 [Back To The Top](#project-name)
 
