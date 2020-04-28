@@ -84,7 +84,7 @@ There are no tests.
 
 Please contact the following for any questions.
 
-<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="50px"> - contact@natevalline.com
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="50px">  =>  contact@natevalline.com
 
 [Back To The Top](#project-name)
 
