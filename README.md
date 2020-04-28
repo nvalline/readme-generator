@@ -1,4 +1,6 @@
 
+## Project Name
+
 # README Generator
 
 <img src="./assets/img/readme-generator.png" alt="Project Screenshot" max-height="500px">

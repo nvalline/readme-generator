@@ -1,6 +1,8 @@
 // Generate Markdown
 function generateMarkdown(answers, userImage, siteLive, currentYear) {
     return `
+### Project Name
+
 # ${answers.projectName}
 
 <img src="./assets/img/${answers.projectImage}" alt="Project Screenshot" max-height="500px">
