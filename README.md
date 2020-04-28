@@ -1,11 +1,11 @@
 
-# undefined
+# README Generator
 
-<img src="./assets/img/undefined" alt="Project Screenshot" max-height="550px">
+<img src="./assets/img/placeholder.png" alt="Project Screenshot" max-height="550px">
 
-> undefined
+> This a short project blurb
 
-#### [View The Site](#) - The project is not live.
+#### [View The Site](https://www.google.com) - See the project live.
 
 ---
 
@@ -15,10 +15,10 @@ Your section headers will be used to reference location of destination.
 
 - [Description](#description)
 - [Technologies](#technologies)
-- [How To Use](#how-to-use)
 - [Installation](#installation)
-- [Contributors](#contributors)
+- [How To Use](#how-to-use)
 - [Test(s)](#tests)
+- [Contributors](#contributors)
 - [Questions](#questions)
 - [License](#license)
 
@@ -26,7 +26,7 @@ Your section headers will be used to reference location of destination.
 
 ## Description
 
-undefined
+The project description goes here
 
 [Back To The Top](#project-name)
 
@@ -34,17 +34,9 @@ undefined
 
 ## Technologies
 
-![GitHub Top Language](https://img.shields.io/github/languages/top/undefined/undefined) ![GitHub language count](https://img.shields.io/github/languages/count/undefined/undefined)
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/readme-generator) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/readme-generator)
 
-- undefined
-
-[Back To The Top](#project-name)
-
----
-
-## How To Use
-
-undefined
+- Javascript, node.js, HTML, CSS
 
 [Back To The Top](#project-name)
 
@@ -52,17 +44,17 @@ undefined
 
 ## Installation
 
-undefined
+Simply run npm install
 
-#### [View The Site](#) - The project is not live.
+#### [View The Site](https://www.google.com) - See the project live.
 
 [Back To The Top](#project-name)
 
 ---
 
-## Contributors
+## How To Use
 
-- Nate Valline
+Click the link & follow the prompts
 
 [Back To The Top](#project-name)
 
@@ -70,7 +62,15 @@ undefined
 
 ## Tests
 
-There are no tests.
+Tests go here
+
+[Back To The Top](#project-name)
+
+---
+
+## Contributors
+
+- Nate Valline, John Doe, Jane Tarzan
 
 [Back To The Top](#project-name)
 
@@ -80,9 +80,9 @@ There are no tests.
 
 Please contact the following for any questions.
 
-<img src="https://avatars3.githubusercontent.com/u/11791361?v=4" alt="User Image" width="50px">
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="50px">
 
-- undefined
+- contact@natevalline.com
 
 [Back To The Top](#project-name)
 

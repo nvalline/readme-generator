@@ -3,7 +3,7 @@ function generateMarkdown(answers, userImage, siteLive, currentYear) {
     return `
 # ${answers.projectName}
 
-<img src="./assets/img/${answers.projectImage}" alt="Project Screenshot" max-height="550px">
+<img src="./assets/img/${answers.projectImage}" alt="Project Screenshot" max-height="500px">
 
 > ${answers.projectBlurb}
 
@@ -17,10 +17,10 @@ Your section headers will be used to reference location of destination.
 
 - [Description](#description)
 - [Technologies](#technologies)
-- [How To Use](#how-to-use)
 - [Installation](#installation)
-- [Contributors](#contributors)
+- [How To Use](#how-to-use)
 - [Test(s)](#tests)
+- [Contributors](#contributors)
 - [Questions](#questions)
 - [License](#license)
 
@@ -44,14 +44,6 @@ ${answers.projectDescription}
 
 ---
 
-## How To Use
-
-${answers.projectHowTo}
-
-[Back To The Top](#project-name)
-
----
-
 ## Installation
 
 ${answers.projectInstall}
@@ -62,9 +54,9 @@ ${answers.projectInstall}
 
 ---
 
-## Contributors
+## How To Use
 
-- ${answers.projectContributors}
+${answers.projectHowTo}
 
 [Back To The Top](#project-name)
 
@@ -73,6 +65,14 @@ ${answers.projectInstall}
 ## Tests
 
 ${answers.projectTest}
+
+[Back To The Top](#project-name)
+
+---
+
+## Contributors
+
+- ${answers.projectContributors}
 
 [Back To The Top](#project-name)
 
