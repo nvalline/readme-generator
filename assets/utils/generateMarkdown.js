@@ -82,9 +82,7 @@ ${answers.projectTest}
 
 Please contact the following for any questions.
 
-<img src="${userImage}" alt="User Image" width="50px">
-
-- ${answers.userEmail}
+<img src="${userImage}" alt="User Image" width="35px"> => ${answers.userEmail}
 
 [Back To The Top](#project-name)
 

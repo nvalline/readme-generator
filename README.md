@@ -1,7 +1,7 @@
 
 # README Generator
 
-<img src="./assets/img/placeholder.png" alt="Project Screenshot" max-height="500px">
+<img src="./assets/img/readme-generator.png" alt="Project Screenshot" max-height="500px">
 
 > This application will guide the user to generate a README markdown file for their project.
 
@@ -26,7 +26,9 @@ Your section headers will be used to reference location of destination.
 
 ## Description
 
-The project description goes here
+This command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.  
+
+To accomplish this, the user is prompted a series of questions in the command-line and the README file is then generated based on the information provided by the user. 
 
 [Back To The Top](#project-name)
 
@@ -84,7 +86,7 @@ There are no tests.
 
 Please contact the following for any questions.
 
-<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="50px">  =>  contact@natevalline.com
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="35px">  =>  contact@natevalline.com
 
 [Back To The Top](#project-name)
 
